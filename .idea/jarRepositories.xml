@@ -7,6 +7,11 @@
       <option name="url" value="http://oss-repo-master.krakow.comarch/nexus/content/repositories/osscompiled" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="comarch-nexus-repository-external" />
       <option name="name" value="Comarch Nexus Repository Group" />
       <option name="url" value="http://oss-repo-master.krakow.comarch/nexus/content/repositories/external" />
