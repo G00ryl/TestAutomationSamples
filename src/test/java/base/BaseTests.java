@@ -30,6 +30,7 @@ public class BaseTests {
         driver = new EventFiringWebDriver(new ChromeDriver());
         driver.register(new EventReporter());
         goHome();
+        setCookie();
     }
     @BeforeMethod
     public void goHome(){
@@ -55,5 +56,11 @@ public class BaseTests {
     }
     public WindowManager getWindowManager(){
         return new WindowManager(driver);
+    }
+    private void setCookie(){
+        Cookie cookie = new Cookie.Builder("MyCookie","123")
+                .domain("the-internet.herokuapp.com")
+                .build();
+        driver.manage().addCookie(cookie);
     }
 }
