@@ -1,0 +1,11 @@
+navigation\NavigationTests.class
+alerts\AlertTests.class
+frames\FrameTests.class
+hoverpage\HoverTests.class
+alerts\FileUploadTests.class
+javascript\JavaScriptTests.class
+wait\WaitTests.class
+base\BaseTests.class
+LoginTests\LoginTest.class
+dropdown\DropdownTests.class
+Keys\KeysTests.class
