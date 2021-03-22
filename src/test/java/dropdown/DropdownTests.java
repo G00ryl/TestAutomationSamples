@@ -3,6 +3,8 @@ package dropdown;
 import base.BaseTests;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
@@ -13,7 +15,7 @@ public class DropdownTests extends BaseTests {
 
         String option = "Option 1";
         dropDownPage.selectFromDropDown("Option 1");
-        var selectedOtions = dropDownPage.getSelectedOptions();
+        List<String> selectedOtions = dropDownPage.getSelectedOptions();
         assertEquals(selectedOtions.size(),1,"Incorrect number of Selections");
         assertTrue(selectedOtions.contains(option), "Option not selected");
     }
