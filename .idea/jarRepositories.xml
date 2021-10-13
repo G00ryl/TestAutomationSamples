@@ -2,19 +2,9 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
-      <option name="id" value="comarch-nexus-repository-osscompiled" />
-      <option name="name" value="Comarch Nexus Repository Group" />
-      <option name="url" value="http://oss-repo-master.krakow.comarch/nexus/content/repositories/osscompiled" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="comarch-nexus-repository-external" />
-      <option name="name" value="Comarch Nexus Repository Group" />
-      <option name="url" value="http://oss-repo-master.krakow.comarch/nexus/content/repositories/external" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -25,21 +15,6 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="http://oss-repo-master.krakow.comarch/nexus/content/repositories/thirdparty/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="comarch-nexus-repository-release" />
-      <option name="name" value="Comarch Nexus Repository Group" />
-      <option name="url" value="http://oss-repo-master.krakow.comarch/nexus/content/repositories/release" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="comarch-nexus-repository-snapshot" />
-      <option name="name" value="Comarch Nexus Repository Group" />
-      <option name="url" value="http://oss-repo-master.krakow.comarch/nexus/content/repositories/snapshot" />
     </remote-repository>
   </component>
 </project>
